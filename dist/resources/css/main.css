@@ -1,5 +1,6 @@
 /** Variables **/
 /** Colors **/
+/** Units of Measure **/
 /** Bootstrap Source Files **/
 /*!
    * Bootstrap  v5.3.2 (https://getbootstrap.com/)
@@ -9298,7 +9299,37 @@ body {
 
 /** Page Layouts **/
 #home-section {
-  padding-top: 5rem; }
+  background-image: url("../img/home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 50rem; }
+  #home-section .fas {
+    color: #008ed6;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px; }
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50rem;
+    background-color: rgba(0, 0, 0, 0.7); }
+  #home-section .home-inner {
+    padding-top: 10rem; }
+  #home-section .card-form {
+    padding: 1rem;
+    min-height: 20rem;
+    opacity: 0.8;
+    color: #fff; }
+    #home-section .card-form input[type='text'],
+    #home-section .card-form input[type='password'] {
+      margin: 1rem 0; }
+    #home-section .card-form input[type='submit'] {
+      display: block;
+      width: 100%;
+      padding: 0.5rem 0; }
 
 nav {
   border-bottom: 3px solid #008ed6; }
