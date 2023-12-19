@@ -9297,8 +9297,13 @@ body {
   color: #fff; }
 
 /** Page Layouts **/
-nav .navbar-nav {
-  margin-left: auto; }
+#home-section {
+  padding-top: 5rem; }
+
+nav {
+  border-bottom: 3px solid #008ed6; }
+  nav .navbar-nav {
+    margin-left: auto; }
 
 /** Modules **/
 /** Media queries **/
