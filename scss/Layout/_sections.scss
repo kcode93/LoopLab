@@ -1,0 +1,9 @@
+#explore-head-section {
+	//background-color: $nav-border;
+}
+
+#explore-section {
+	.fas {
+		@include cst-checkbox($white, $dark-color);
+	}
+}

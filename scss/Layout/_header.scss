@@ -6,10 +6,7 @@
 	min-height: $header-min-width;
 
 	.fas {
-		color: $nav-border;
-		background-color: $white;
-		padding: 5px;
-		border-radius: 5px;
+		@include cst-checkbox($nav-border, $white);
 	}
 
 	.dark-overlay {
@@ -22,7 +19,7 @@
 	}
 
 	.home-inner {
-		padding-top: 10rem;
+		padding-top: 15rem;
 	}
 
 	.card-form {

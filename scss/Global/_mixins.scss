@@ -14,3 +14,11 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+
+//customizes the fas checkboxes icons
+@mixin cst-checkbox($color, $background-color) {
+	color: $color;
+	background-color: $background-color;
+	padding: 5px;
+	border-radius: 5px;
+}
