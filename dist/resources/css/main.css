@@ -9332,9 +9332,18 @@ body {
       padding: 0.5rem 0; }
 
 nav {
-  border-bottom: 3px solid #008ed6; }
+  border-bottom: 4px solid #008ed6; }
   nav .navbar-nav {
     margin-left: auto; }
+    nav .navbar-nav .nav-item {
+      padding: 0.5rem;
+      margin-right: 0.5rem;
+      border-bottom: 2px transparent #008ed6;
+      transition: border 0.8s ease-in; }
+      nav .navbar-nav .nav-item.active {
+        border-bottom: 2px solid #008ed6; }
+      nav .navbar-nav .nav-item:hover {
+        border-bottom: 2px solid #008ed6; }
 
 #explore-section .fas {
   color: #fff;

@@ -1,6 +1,21 @@
 nav {
-	border-bottom: 3px solid $nav-border;
+	border-bottom: 4px solid $nav-border;
 	.navbar-nav {
 		margin-left: auto;
+
+		.nav-item {
+			padding: 0.5rem;
+			margin-right: 0.5rem;
+			border-bottom: 2px transparent $nav-border;
+			transition: border 0.8s ease-in;
+
+			&.active {
+				border-bottom: 2px solid $nav-border;
+			}
+
+			&:hover {
+				border-bottom: 2px solid $nav-border;
+			}
+		}
 	}
 }
