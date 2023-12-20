@@ -7,3 +7,9 @@
 		@include cst-checkbox($white, $dark-color);
 	}
 }
+
+#create-section {
+	.fas {
+		@include cst-checkbox($white, $nav-border);
+	}
+}

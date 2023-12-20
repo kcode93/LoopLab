@@ -10,7 +10,8 @@ nav {
 			transition: border 0.8s ease-in;
 
 			&.active {
-				border-bottom: 2px solid $nav-border;
+				border-bottom: 2.5px solid $nav-border;
+				font-weight: bold;
 			}
 
 			&:hover {
