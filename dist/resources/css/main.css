@@ -9358,6 +9358,12 @@ nav {
   padding: 5px;
   border-radius: 5px; }
 
+#share-section .fas {
+  color: #fff;
+  background-color: #333;
+  padding: 5px;
+  border-radius: 5px; }
+
 #main-footer .d-flex {
   align-items: center;
   justify-content: center; }
@@ -9371,4 +9377,9 @@ nav {
     margin: 0 0.5rem; }
 
 /** Modules **/
+#contactModal .close i {
+  transition: all 0.5ms ease-in-out; }
+  #contactModal .close i:hover {
+    color: #dc3545; }
+
 /** Media queries **/

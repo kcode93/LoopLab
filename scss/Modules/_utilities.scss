@@ -1,0 +1,10 @@
+#contactModal {
+	.close {
+		i {
+			transition: all 0.5ms ease-in-out;
+			&:hover {
+				color: $danger;
+			}
+		}
+	}
+}
