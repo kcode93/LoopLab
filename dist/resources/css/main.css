@@ -9358,5 +9358,17 @@ nav {
   padding: 5px;
   border-radius: 5px; }
 
+#main-footer .d-flex {
+  align-items: center;
+  justify-content: center; }
+  #main-footer .d-flex .social-media i {
+    padding: 0 0.5rem;
+    transition: all 0.5ms ease-in; }
+    #main-footer .d-flex .social-media i:hover {
+      color: #008ed6;
+      cursor: pointer; }
+  #main-footer .d-flex button {
+    margin: 0 0.5rem; }
+
 /** Modules **/
 /** Media queries **/

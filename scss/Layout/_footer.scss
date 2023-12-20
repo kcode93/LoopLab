@@ -1,0 +1,22 @@
+#main-footer {
+	.d-flex {
+		align-items: center;
+		justify-content: center;
+
+		.social-media {
+			i {
+				padding: 0 0.5rem;
+				transition: all 0.5ms ease-in;
+
+				&:hover {
+					color: $nav-border;
+					cursor: pointer;
+				}
+			}
+		}
+
+		button {
+			margin: 0 0.5rem;
+		}
+	}
+}
